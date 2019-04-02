@@ -1,17 +1,18 @@
 # any project/subproject target directory
-/target/
-/*/target
-/bin/
-/build/
-/war/
-/local-repository/
+target/
+*/target
+bin/
+build/
+war/
+local-repository/
+.factorypath
 # eclipse specific files
-/.classpath
-/.settings
-/.tern-project
-/.project
-/*/.tern-project
-/*/.settings
-/*/.project
-/*/.classpath
-/*/.factorypath
+.classpath
+.settings
+.tern-project
+.project
+*/.tern-project
+*/.settings
+*/.project
+*/.classpath
+*/.factorypath
